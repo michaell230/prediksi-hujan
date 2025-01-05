@@ -1,5 +1,3 @@
 numpy>=1.25.0
 pandas>=2.1.1
 streamlit==1.25.0
-pickle
-pip==24.3.1
