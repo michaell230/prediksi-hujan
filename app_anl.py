@@ -148,7 +148,7 @@ def main():
     # Load data
     @st.cache_data
     def load_data():
-        df = pd.read_csv('data/50 50.csv')
+        df = pd.read_csv('50 50.csv')
         X = df.drop('RainTomorrow', axis=1).values
         y = df['RainTomorrow'].values
         return X, y, df.columns[:-1]
